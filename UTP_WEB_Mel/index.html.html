@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MYG World</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-gray-300 text-white font-mono">
+
+  <!-- Navbar -->
+  <header class="bg-gray-800 p-4 fixed w-full z-10 shadow-md">
+    <div class="flex justify-between items-center max-w-6xl mx-auto">
+      <h1 class="text-lg font-bold">MYG World</h1>
+      <nav>
+        <a href="#home" class="hover:text-purple-400 mx-2">Home</a>
+        <a href="#about" class="hover:text-purple-400 mx-2">About</a>
+        <a href="#project" class="hover:text-purple-400 mx-2">Project</a>
+        <a href="#gallery" class="hover:text-purple-400 mx-2">Gallery</a>
+        <a href="#contact" class="hover:text-purple-400 mx-2">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="h-screen flex items-center justify-center bg-cover bg-center text-center pt-20"
+  style="background-image: url('bgYoon.jpg');">
+    <div>
+      <h2 class="text-4xl font-bold mb-4 text-gray-900 text-outline">Welcome to MYG World</h2>
+      <p class="text-lg text-purple-600" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">Explore the music, passion, and soul of Min Yoongi (SUGA / Agust D)</p>
+    </div>
+</section>
+
+
+
+  <!-- About -->
+  <section id="about" class="py-20 px-6 md:px-20 bg-gray-800">
+    <div class="flex flex-col md:flex-row items-center gap-8">
+      <img src="profile.jpg" alt="Min Yoongi" class="w-64 rounded-lg shadow-lg">
+      <div>
+        <h2 class="text-3xl font-bold mb-4">About Me</h2>
+        <p class="mb-2">
+          Hi, I’m Min Yoongi, known by stage names SUGA and Agust D. I'm a South Korean rapper, songwriter, and producer.
+        </p>
+        <p>
+          I started my journey in Daegu and eventually joined BTS under BigHit Entertainment in 2013. As Agust D, I’ve released solo mixtapes and collaborated with various artists.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project -->
+  <section id="project" class="py-20 px-6 md:px-20 bg-gray-900">
+    <h2 class="text-3xl font-bold mb-10 text-center">Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-gray-800 p-4 rounded shadow hover:shadow-xl transition">
+        <a href="https://www.youtube.com/watch?v=6DVLYf_Ar6g&list=OLAK5uy_mgkrM7UTUlZ3dUtHE2B74RF8WbBtJXtao"_blank">
+          <img src="agustd.jpg" class="rounded mb-2 hover:opacity-90 transition">
+        </a>        
+        <h3 class="text-xl font-semibold mb-1">Agust D</h3>
+        <p>Debut mixtape showing his raw style and personal stories.</p>
+      </div>
+      <div class="bg-gray-800 p-4 rounded shadow hover:shadow-xl transition">
+        <a href="https://www.youtube.com/watch?v=YZ0Exxdj7YQ&list=OLAK5uy_lV1BhQbKMjudkNoNKYokycJgbbWDdt7ZM">
+          <img src="d-2.jpg" class="rounded mb-2 hover:opacity-90 transition">
+        </a> 
+        <h3 class="text-xl font-semibold mb-1">D-2</h3>
+        <p>Second mixtape featuring Daechwita, mixing tradition with modern hip-hop.</p>
+      </div>
+      <div class="bg-gray-800 p-4 rounded shadow hover:shadow-xl transition">
+        <a href="https://youtube.com/playlist?list=OLAK5uy_kXhqIxygqFcOMsJEIFAb_8-X56HKv-chY&si=ZOAfDwTMrqoYYYiB">
+          <img src="proof.jpg" class="rounded mb-2 hover:opacity-90 transition">
+        </a>
+        <h3 class="text-xl font-semibold mb-1">Proof</h3>
+        <p>BTS album featuring his work across eras of growth.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="py-20 px-6 md:px-20 bg-gray-800">
+    <h2 class="text-3xl font-bold mb-10 text-center">Gallery</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <img src="g5.jpg" class="rounded shadow hover:scale-105 transition duration-300">
+      <img src="g2.jpg" class="rounded shadow hover:scale-105 transition duration-300">
+      <img src="g3.jpg" class="rounded shadow hover:scale-105 transition duration-300">
+      <img src="g4.jpg" class="rounded shadow hover:scale-105 transition duration-300">
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 px-6 md:px-20 bg-gray-900">
+    <h2 class="text-3xl font-bold mb-8 text-center">Let’s Connect</h2>
+    <div class="grid md:grid-cols-2 gap-10">
+      <div>
+        <p class="mb-4">Whether it's about music collaboration, production inquiries, or business opportunities, I'm always open to meaningful connections.</p>
+        <p><strong>Instagram:</strong> @agustd</p>
+        <p><strong>Spotify:</strong> Agust D</p>
+        <p><strong>Twitter:</strong> @BTS_twt</p>
+        <br>
+        <p><strong>Contact Info:</strong></p>
+        <p>HYBE Labels, 42 Hangang-daero, Yongsan-gu, Seoul, South Korea</p>
+        <p>Management: Big Hit Music</p>
+        <p>Email: business@minyoongi.kr</p>
+      </div>
+      <form class="space-y-4">
+        <input type="text" placeholder="Full Name" class="w-full p-2 rounded bg-gray-800 text-white border border-gray-600 focus:outline-none">
+        <input type="email" placeholder="Email" class="w-full p-2 rounded bg-gray-800 text-white border border-gray-600 focus:outline-none">
+        <input type="text" placeholder="Subject" class="w-full p-2 rounded bg-gray-800 text-white border border-gray-600 focus:outline-none">
+        <textarea placeholder="Message" rows="4" class="w-full p-2 rounded bg-gray-800 text-white border border-gray-600 focus:outline-none"></textarea>
+        <button class="bg-purple-500 text-black px-4 py-2 rounded hover:bg-yellow-300 transition">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-gray-800 text-gray-400 text-sm">
+    © 2025 Dibuat oleh Melissa Novianti Nugroho sebagai proyek UTS Mata Kuliah Pemrograman Web
+  </footer>
+
+</body>
+</html>
